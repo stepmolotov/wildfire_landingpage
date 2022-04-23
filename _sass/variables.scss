@@ -1,5 +1,10 @@
-$brand-color: #2a2a2a; //#2b3d51;
-$secondary-brand-color: #2a2a2a; //#2b3d51;
+$wild-gray: #2a2a2a;
+$wild-orange: #f46147;
+$title-color: #fe8276;
+$sub-title-color: #febf88;
+
+$brand-color: $wild-gray; //#2b3d51;
+$secondary-brand-color: $wild-gray; //#2b3d51;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints

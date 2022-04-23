@@ -1,5 +1,5 @@
 html {
-	background: #2a2a2a;//#2b2b40;
+	background: $wild-gray; //#2b2b40;
 }
 
 html, body {
@@ -47,7 +47,7 @@ h3 {
 
 p, address {
 	font-size: 1.38em;
-	color: #2a2a2a; //#666;
+	color: $wild-gray; //#666;
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.4em;
