@@ -8,7 +8,7 @@
 	transition: .2s ease-in-out;
 }
 
-.button a:hover, input[type=submit]:hover {
+.button a:hover{
 	border: 1px solid #fff;
 	background: $secondary-brand-color;
 	cursor: pointer;
@@ -32,7 +32,7 @@ input[type=submit] {
 	margin: 20px 0 0 0;
 }
 
-input[type=submit] a:hover {
+input[type=submit]:hover {
 	margin: 20px 0 0 0;
 	background: #fff;
 	color: $brand-color;
