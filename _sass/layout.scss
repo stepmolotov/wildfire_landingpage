@@ -188,11 +188,11 @@ blockquote:before {
 	height: 100%;
 }
 
-.fa-youtube {
+.fa-youtube, .fa-play-circle {
 	color: $sub-title-color !important;
 }
 
-.fa-youtube:hover {
+.fa-youtube:hover, .fa-play-circle:hover {
 	// margin: 20px 0 0 0;
 	// background: $wild-orange; //#fff;
 	color: $wild-orange !important;
