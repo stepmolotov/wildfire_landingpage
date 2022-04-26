@@ -189,13 +189,13 @@ blockquote:before {
 }
 
 .fa-youtube, .fa-play-circle {
-	color: $wild-orange !important;
+	color: $wild-orange;
 }
 
 .fa-youtube:hover, .fa-play-circle:hover {
 	// margin: 20px 0 0 0;
 	// background: $wild-orange; //#fff;
-	color: $sub-title-color !important;
+	color: $sub-title-color;
 	// border: 1px solid $brand-color;
 	transform: scale(1.15)
 }
