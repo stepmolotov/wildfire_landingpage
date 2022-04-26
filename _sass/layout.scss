@@ -189,13 +189,22 @@ blockquote:before {
 }
 
 .fa-youtube, .fa-play-circle {
-	color: $wild-orange;
+	color: $wild-orange !important;
+	-webkit-transition: transform 2s ease-in-out;
+	-moz-transition: transform 2s ease-in-out;
+	transition: transform 2s ease-in-out;
 }
 
 .fa-youtube:hover, .fa-play-circle:hover {
 	// margin: 20px 0 0 0;
 	// background: $wild-orange; //#fff;
-	color: $sub-title-color;
+	color: $sub-title-color !important;
 	// border: 1px solid $brand-color;
-	transform: scale(1.15)
+	// transform: scale(1.15)
+	-moz-transform: scale(1.20);
+	-webkit-transform: scale(1.20);
+	-o-transform: scale(1.20);
+	-ms-transform: scale(1.20);
+	-webkit-transform: scale(1.20);
+	transform: scale(1.20);
 }
