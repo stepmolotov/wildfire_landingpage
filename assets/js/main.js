@@ -5,7 +5,7 @@ document.addEventListener(
 		particlesJS("particles-js", {
 			particles: {
 				number: { value: 30, density: { enable: !0, value_area: 800 } },
-				color: { value: "#ffffff" },
+				color: { value: "#febf88" },
 				shape: {
 					type: "polygon",
 					stroke: { width: 0, color: "#000000" },
@@ -38,8 +38,8 @@ document.addEventListener(
 					enable: !0,
 					speed: 4,
 					direction: "top",
-					random: !0,
-					straight: !1,
+					random: true,
+					straight: false,
 					out_mode: "out",
 					bounce: !1,
 					attract: { enable: !1, rotateX: 600, rotateY: 1200 }
