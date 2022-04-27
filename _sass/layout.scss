@@ -190,9 +190,9 @@ blockquote:before {
 
 .fa-youtube, .fa-play-circle {
 	color: $wild-orange !important;
-	-webkit-transition: transform 1s ease-in-out;
-	-moz-transition: transform 1s ease-in-out;
-	transition: transform 1s ease-in-out;
+	-webkit-transition: transform 0.15s ease-in-out;
+	-moz-transition: transform 0.15s ease-in-out;
+	transition: transform 0.15s ease-in-out;
 }
 
 .fa-youtube:hover, .fa-play-circle:hover {
