@@ -11,3 +11,20 @@
 #overlay {
 	position: relative;
 }
+
+#particles-js {
+	background: $main;
+	background-color: $wild-gray;
+	display: flex;
+	vertical-align: bottom;
+	width: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	.particles-js-canvas-el {
+		width: 100% !important;
+		height: 100vh !important;
+	}
+}
