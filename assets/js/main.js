@@ -28,7 +28,7 @@ document.addEventListener(
 					}
 				},
 				line_linked: {
-					enable: !0,
+					enable: false,
 					distance: 150,
 					color: "#ffffff",
 					opacity: 0.4,
@@ -37,7 +37,7 @@ document.addEventListener(
 				move: {
 					enable: !0,
 					speed: 4,
-					direction: "none",
+					direction: "top",
 					random: !0,
 					straight: !1,
 					out_mode: "out",
