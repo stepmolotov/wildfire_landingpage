@@ -18,12 +18,12 @@ document.addEventListener(
 					anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
 				},
 				size: {
-					value: 6,
+					value: 10,
 					random: true,
 					anim: {
 						enable: true,
 						speed: 1,
-						size_min: 0.1,
+						size_min: 0.3,
 						sync: !1
 					}
 				},
