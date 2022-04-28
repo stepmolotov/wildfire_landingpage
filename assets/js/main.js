@@ -7,7 +7,7 @@ document.addEventListener(
 				number: { value: 120, density: { enable: !0, value_area: 800 } },
 				color: { value: "#fe8276" },
 				shape: {
-					type: "polygon",
+					type: "circle",
 					stroke: { width: 0, color: "#000000" },
 					polygon: { nb_sides: 5 },
 					image: { src: "img/github.svg", width: 100, height: 100 }
