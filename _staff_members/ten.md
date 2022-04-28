@@ -1,7 +1,7 @@
 ---
 name: Gabriele Tenucci
 position: CEO
-image_path: https://source.unsplash.com/collection/139386/601x601?a=.png
+image_path: "{{ site.baseurl }}/images/ten.jpg"
 twitter: CloudCannonApp
 blurb: Gabriele likes long walks on the beach and buffet breakfast.
 ---
