@@ -15,14 +15,14 @@ document.addEventListener(
 				opacity: {
 					value: 0.5,
 					random: true,
-					anim: { enable: false, speed: 1, opacity_min: 0.1, sync: !1 }
+					anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
 				},
 				size: {
 					value: 6,
 					random: true,
 					anim: {
-						enable: !1,
-						speed: 19.18081918081918,
+						enable: true,
+						speed: 1,
 						size_min: 0.1,
 						sync: !1
 					}
