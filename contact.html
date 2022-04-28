@@ -1,7 +1,7 @@
 ---
 title: 
 heading: 
-description: 
+description: Scrivici per maggiori informazioni
 
 map:
   latitude: -45.8787605
@@ -11,39 +11,41 @@ map:
 ---
 <!-- <div class="map" id="map"></div> -->
 
-<div class="text-container">
-	<div class="contact-box">
-		<!--<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjwprkb" method="post">-->
-		<!--<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">-->
-		<form action="https://formsubmit.co/2fde2689202f01c1997c7b117eb7bc28" method="POST" class="contact-form">
-			<h2>Contattaci</h2>
-			<input type="hidden" name="_to" value="info@wildfiresentinel.it" />
-			<input type="text" name="_gotcha" style="display: none;">
-			<input type="hidden" name="_next" value="http://wildfiresentinel.it/contact-success/">
+<section class="testimonial">
+	<div class="text-container">
+		<div class="contact-box">
+			<!--<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjwprkb" method="post">-->
+			<!--<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">-->
+			<form action="https://formsubmit.co/2fde2689202f01c1997c7b117eb7bc28" method="POST" class="contact-form">
+				<h2>Contattaci</h2>
+				<input type="hidden" name="_to" value="info@wildfiresentinel.it" />
+				<input type="text" name="_gotcha" style="display: none;">
+				<input type="hidden" name="_next" value="http://wildfiresentinel.it/contact-success/">
 
-			<label for="name">Nome</label>
-			<input type="text" name="name" id="name" placeholder="Inserisci il tuo nome..." />
+				<label for="name">Nome</label>
+				<input type="text" name="name" id="name" placeholder="Inserisci il tuo nome..." />
 
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" placeholder="Inserisci la tua email..." required />
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Inserisci la tua email..." required />
 
-			<label for="message">Messaggio</label>
-			<textarea name="message" id="message" placeholder="Inserisci un messaggio..."></textarea>
+				<label for="message">Messaggio</label>
+				<textarea name="message" id="message" placeholder="Inserisci un messaggio..."></textarea>
 
-			<input type="submit" value="Invia Messaggio" />
-		</form>
+				<input type="submit" value="Invia Messaggio" />
+			</form>
 
-		<div class="contact-details">
-			<!-- 
-			<h3 class="editable">Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-			--> 
-			
-			<h3 class="editable">Email</h3>
-			<p><a href="mailto:info@wildfiresentinel.it">info@wildfiresentinel.it</a></p>
+			<div class="contact-details">
+				<!-- 
+				<h3 class="editable">Address</h3>
+				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+				--> 
+				
+				<h3 class="editable">Email</h3>
+				<p><a href="mailto:info@wildfiresentinel.it">info@wildfiresentinel.it</a></p>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!--
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
