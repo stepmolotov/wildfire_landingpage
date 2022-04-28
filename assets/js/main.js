@@ -18,7 +18,7 @@ document.addEventListener(
 					anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
 				},
 				size: {
-					value: 10,
+					value: 8,
 					random: true,
 					anim: {
 						enable: true,
