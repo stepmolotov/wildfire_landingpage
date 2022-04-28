@@ -37,7 +37,7 @@ document.addEventListener(
 				move: {
 					enable: !0,
 					speed: 4,
-					direction: "top",
+					direction: "top-right",
 					random: true,
 					straight: false,
 					out_mode: "out",
