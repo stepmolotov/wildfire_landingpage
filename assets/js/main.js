@@ -4,8 +4,8 @@ document.addEventListener(
 		new SweetScroll({});
 		particlesJS("particles-js", {
 			particles: {
-				number: { value: 30, density: { enable: !0, value_area: 800 } },
-				color: { value: "#febf88" },
+				number: { value: 120, density: { enable: !0, value_area: 800 } },
+				color: { value: "#fe8276" },
 				shape: {
 					type: "polygon",
 					stroke: { width: 0, color: "#000000" },
@@ -19,7 +19,7 @@ document.addEventListener(
 				},
 				size: {
 					value: 3,
-					random: !0,
+					random: true,
 					anim: {
 						enable: !1,
 						speed: 19.18081918081918,
