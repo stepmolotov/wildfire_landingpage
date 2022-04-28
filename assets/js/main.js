@@ -4,7 +4,7 @@ document.addEventListener(
 		new SweetScroll({});
 		particlesJS("particles-js", {
 			particles: {
-				number: { value: 120, density: { enable: !0, value_area: 800 } },
+				number: { value: 200, density: { enable: !0, value_area: 800 } },
 				color: { value: "#fe8276" },
 				shape: {
 					type: "circle",
@@ -13,7 +13,7 @@ document.addEventListener(
 					image: { src: "img/github.svg", width: 100, height: 100 }
 				},
 				opacity: {
-					value: 0.5,
+					value: 0.8,
 					random: true,
 					anim: { enable: true, speed: 0.5, opacity_min: 0, sync: false }
 				},
