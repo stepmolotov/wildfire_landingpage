@@ -14,11 +14,11 @@ document.addEventListener(
 				},
 				opacity: {
 					value: 0.5,
-					random: !1,
-					anim: { enable: !1, speed: 1, opacity_min: 0.1, sync: !1 }
+					random: true,
+					anim: { enable: false, speed: 1, opacity_min: 0.1, sync: !1 }
 				},
 				size: {
-					value: 3,
+					value: 6,
 					random: true,
 					anim: {
 						enable: !1,
