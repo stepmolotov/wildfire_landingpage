@@ -5,7 +5,7 @@ document.addEventListener(
 		particlesJS("particles-js", {
 			particles: {
 				number: { value: 200, density: { enable: !0, value_area: 800 } },
-				color: { value: "#fe8276" },
+				color: { value: ["#febf88", "#fe8276"] },
 				shape: {
 					type: "circle",
 					stroke: { width: 0, color: "#000000" },
