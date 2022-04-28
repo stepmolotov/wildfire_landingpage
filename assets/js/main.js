@@ -49,17 +49,17 @@ document.addEventListener(
 			interactivity: {
 				detect_on: "canvas",
 				events: {
-					onhover: { enable: !1, mode: "grab" },
-					onclick: { enable: !0, mode: "push" },
+					onhover: { enable: true, mode: "bubble" },
+					onclick: { enable: false, mode: "push" },
 					resize: !0
 				},
 				modes: {
 					grab: { distance: 400, line_linked: { opacity: 1 } },
 					bubble: {
 						distance: 400,
-						size: 40,
+						size: 4,
 						duration: 2,
-						opacity: 8,
+						opacity: 1,
 						speed: 3
 					},
 					repulse: { distance: 200, duration: 0.4 },
